@@ -22,7 +22,7 @@ Numbers that contain a 3: all digits are replaced (all digits) with "Won't you b
 
 ## Setup/Installation Requirements
 
-* Clone this repository to your desktop from this [Link.](https://github.com/BradPrettyman/robogers-project.git)
+* Clone this repository to your desktop from this [Link.](https://github.com/BradPrettyman/robogers-project)
 * Navigate to top level of directory
 * Open robogers-project/index.html
 
