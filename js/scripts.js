@@ -1,3 +1,5 @@
+// Business Logic
+
 function numberInput(number) {
 
   let numberArray = [];
@@ -25,3 +27,15 @@ function numberInput(number) {
   }
   return numberArray;
 }
+
+// UI Logic
+
+$(document).ready(function(){
+  $("form#enterNumber").submit(function(event) {
+    event.preventDefault();
+    const number = $('#number1').val();
+    const result = numberInput(number);
+
+    $('#output').text(result);
+  })
+})
